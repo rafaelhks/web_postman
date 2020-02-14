@@ -74,9 +74,14 @@ button[type="submit"]:hover{
     padding: 5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     [class^="col-"], input[type=submit] {
         width: 100%;
         margin-top: 0;
+    }
+
+    button[type="submit"]{
+        width: 100%;
+        margin-top: 10px;
     }
 } 

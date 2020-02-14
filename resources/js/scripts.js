@@ -30,7 +30,11 @@ function justDoIt(){
     })
     .then(data => {
         result.value = data;
-    });
+    })
+    .catch(function(error) {
+        console.log(error);
+        result.value = error;
+    });;
 }
 
 function optionsGET(c_type){
