@@ -51,7 +51,6 @@ function optionsPOST(c_type){
         method: 'POST',
         headers: {
             "Content-Type": c_type,
-            "Access-Control-Allow-Origin": 'http://www.google.com.br'
         },
         body: in_body.value,
     };
